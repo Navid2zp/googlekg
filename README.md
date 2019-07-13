@@ -34,25 +34,25 @@ fmt.Println(res)
 
 ```
 // To set "limit" parameter
-req.SetLimit(limit int)
+req.SetLimit(10)
 
 // To set "query" parameter
-req.Query(query string)
+req.Query("github")
 
 // To set "indent" parameter
-req.SetIndent(indent bool)
+req.SetIndent(true)
 
 // To set "prefix" parameter
-req.SetPreFix(prefix bool)
+req.SetPreFix(true)
 
 // To set "ids" parameters
-req.SetIDs(ids []string)
+req.SetIDs([]string{"/m/0dl567"})
 
 // To set "languages" parameters
-req.SetLanguages(languages []string)
+req.SetLanguages([]string{"en", "fa"})
 
 // To set "types" parameters
-req.SetTypes(types []string)
+req.SetTypes([]string{"Person", "Thing"})
 ```
 
 ## License
