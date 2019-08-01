@@ -30,7 +30,7 @@ fmt.Println(res)
 // Response will be a KG struct type when response status code is 200.
 ```
 
-**Methods available:**
+**Methods:**
 
 ```
 // To set "limit" parameter
