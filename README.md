@@ -12,7 +12,7 @@ go get -u https://github.com/Navid2zp/googlekg
 ```
 
 ## Example:
-```
+```go
 req, err := googlekg.Make("YOUR_API_KEY")
 if err != nil {
     fmt.Println(err)
@@ -32,7 +32,7 @@ fmt.Println(res)
 
 **Methods:**
 
-```
+```go
 // To set "limit" parameter
 req.SetLimit(10)
 
